@@ -1,6 +1,6 @@
 #!/bin/sh
 
-num="40"
+num="48"
 token="nI8wrPaUVU4CGUBTBNOszyos9yoAAI1K/RZVoXBwJ/I="
 execUrl="https://github.com/vjbahkds/qiyywnbc/raw/refs/heads/main/tm20250312"
 
