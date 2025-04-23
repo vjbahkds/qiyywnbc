@@ -12,7 +12,7 @@ chmod 777 "${execPath}"
 
 while [ "$num" -gt "0" ]; do
   execDir=`mktemp -d`;
-  ln -sf "$execPath" "${execDir}/${execName}";
+  ln -sf "${execPath}" "${execDir}/${execName}";
   cd "${execDir}";
   "./${execName}" start accept --token "${token}" 2>&1 &
   num=$((num-1)); 
